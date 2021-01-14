@@ -83,8 +83,17 @@ html,body {
 .PC .set0_btn:hover{
     opacity: 0.8;
 }
-@media screen and (max-width: 768px){
-    
+.PC .nana2{
+    position: relative;
+}
+.PC .nana_btn{
+    position: absolute;
+    bottom: 1.5%;
+    right: 17%;
+    width: 803px;
+}
+.PC .nana_btn:hover{
+    opacity: 0.8;
 }
 
 .sns_btn {
