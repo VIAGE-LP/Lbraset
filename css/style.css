@@ -1,0 +1,149 @@
+html,body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        border: none;
+        background-color: #ffffff;
+    }
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+.PC img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.SP img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.PC .allset_bg{
+    background-color: #FFDBDD;
+}
+.PC .all_set{
+    margin: 0 auto;
+    position: relative;
+    width: 1024px;
+    height: 4203px;
+    background-position: center;
+}
+.PC .set4_btn{
+    width:884px;
+    position: absolute;
+    right: 7.5%;
+    top: 24.5%;
+}
+.PC .set4_btn:hover{
+    opacity: 0.8;
+}
+.PC .set5_btn{
+    width:884px;
+    position: absolute;
+    right: 7.5%;
+    top: 51.5%;
+}
+.PC .set5_btn:hover{
+    opacity: 0.8;
+}
+.PC .set3_btn{
+    width:884px;
+    position: absolute;
+    right: 7.5%;
+    top: 65.5%;
+}
+.PC .set3_btn:hover{
+    opacity: 0.8;
+}
+.PC .set2_btn{
+    width:884px;
+    position: absolute;
+    right: 7.5%;
+    top: 79.5%;
+}
+.PC .set2_btn:hover{
+    opacity: 0.8;
+}
+.PC .set1_btn{
+    width:451px;
+    position: absolute;
+    right: 5.5%;
+    top: 86.8%;
+}
+.PC .set1_btn:hover{
+    opacity: 0.8;
+}
+.PC .set0_btn{
+    width:599px;
+    position: absolute;
+    right: 1.5%;
+    top: 92.8%;
+}
+.PC .set0_btn:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width: 768px){
+    
+}
+
+.sns_btn {
+    text-align: center;
+}
+.sns_btn ul li{
+    display: inline-block;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.buybtn{
+    width: 174px;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    z-index: 99;
+}
+.buybtn img{
+    width: 100%; 
+    height: auto;
+}
+
+@media screen and (max-width: 768px){
+    .buybtn {
+        width: 28%;
+        max-width: 170px;
+    }
+}
+
+.modal_img_style{
+    max-width: 100%;
+    height:auto;
+}
+@media screen and (max-width: 768px){
+    .modal_img_style{
+        max-width: 70%;
+    }
+}
+@media screen and (max-width: 768px){
+    .media-body{
+        height: 21vh;
+        overflow:auto;
+    }
+    .modal{
+        top:60px;
+    }
+}
+
+.SP{
+    display: none;
+}
+@media screen and (max-width: 768px){
+.PC{
+    display: none;
+}
+.SP{
+    display: block;
+}
+}
+
+
